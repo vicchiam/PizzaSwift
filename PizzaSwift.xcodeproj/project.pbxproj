@@ -12,6 +12,12 @@
 		579BE0DD1BF888C1007D53F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579BE0DB1BF888C1007D53F1 /* Main.storyboard */; };
 		579BE0DF1BF888C1007D53F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579BE0DE1BF888C1007D53F1 /* Assets.xcassets */; };
 		579BE0E21BF888C1007D53F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579BE0E01BF888C1007D53F1 /* LaunchScreen.storyboard */; };
+		579BE0EA1BF8A4A0007D53F1 /* VistaTamanyo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579BE0E91BF8A4A0007D53F1 /* VistaTamanyo.swift */; };
+		579BE0EC1BF8A4CD007D53F1 /* VistaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579BE0EB1BF8A4CD007D53F1 /* VistaMasa.swift */; };
+		579BE0EE1BF8A4ED007D53F1 /* VistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579BE0ED1BF8A4ED007D53F1 /* VistaQueso.swift */; };
+		579BE0F01BF8A51E007D53F1 /* VistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579BE0EF1BF8A51E007D53F1 /* VistaIngredientes.swift */; };
+		579BE0F21BF8A539007D53F1 /* VistaCocina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579BE0F11BF8A539007D53F1 /* VistaCocina.swift */; };
+		579BE0F41BF8A577007D53F1 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579BE0F31BF8A577007D53F1 /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		579BE0DE1BF888C1007D53F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579BE0E11BF888C1007D53F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		579BE0E31BF888C1007D53F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579BE0E91BF8A4A0007D53F1 /* VistaTamanyo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTamanyo.swift; sourceTree = "<group>"; };
+		579BE0EB1BF8A4CD007D53F1 /* VistaMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaMasa.swift; sourceTree = "<group>"; };
+		579BE0ED1BF8A4ED007D53F1 /* VistaQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaQueso.swift; sourceTree = "<group>"; };
+		579BE0EF1BF8A51E007D53F1 /* VistaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaIngredientes.swift; sourceTree = "<group>"; };
+		579BE0F11BF8A539007D53F1 /* VistaCocina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaCocina.swift; sourceTree = "<group>"; };
+		579BE0F31BF8A577007D53F1 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				579BE0DE1BF888C1007D53F1 /* Assets.xcassets */,
 				579BE0E01BF888C1007D53F1 /* LaunchScreen.storyboard */,
 				579BE0E31BF888C1007D53F1 /* Info.plist */,
+				579BE0E91BF8A4A0007D53F1 /* VistaTamanyo.swift */,
+				579BE0EB1BF8A4CD007D53F1 /* VistaMasa.swift */,
+				579BE0ED1BF8A4ED007D53F1 /* VistaQueso.swift */,
+				579BE0EF1BF8A51E007D53F1 /* VistaIngredientes.swift */,
+				579BE0F11BF8A539007D53F1 /* VistaCocina.swift */,
+				579BE0F31BF8A577007D53F1 /* Pizza.swift */,
 			);
 			path = PizzaSwift;
 			sourceTree = "<group>";
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579BE0EA1BF8A4A0007D53F1 /* VistaTamanyo.swift in Sources */,
+				579BE0EE1BF8A4ED007D53F1 /* VistaQueso.swift in Sources */,
+				579BE0F01BF8A51E007D53F1 /* VistaIngredientes.swift in Sources */,
 				579BE0DA1BF888C1007D53F1 /* ViewController.swift in Sources */,
+				579BE0F41BF8A577007D53F1 /* Pizza.swift in Sources */,
+				579BE0F21BF8A539007D53F1 /* VistaCocina.swift in Sources */,
 				579BE0D81BF888C1007D53F1 /* AppDelegate.swift in Sources */,
+				579BE0EC1BF8A4CD007D53F1 /* VistaMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +310,7 @@
 				579BE0E81BF888C1007D53F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

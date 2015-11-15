@@ -9,10 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var pizza : Pizza = Pizza()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        pizza=Pizza()
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let vistaTamanyo=segue.destinationViewController as? VistaTamanyo
+        vistaTamanyo!.pizza=self.pizza
     }
 
     override func didReceiveMemoryWarning() {
